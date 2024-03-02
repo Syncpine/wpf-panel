@@ -8,4 +8,8 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\wpf-panel\wpf-panel.csproj" />
+    </ItemGroup>
+
 </Project>
