@@ -1,9 +1,12 @@
-﻿namespace wpf_panel;
+﻿using System;
 
-public class HelloWorld
+namespace wpf_panel
 {
-    public static void Print()
+    public class HelloWorld
     {
-        Console.WriteLine("Hello, World!");
+        public static void Print()
+        {
+            Console.WriteLine("Hello World.");
+        }
     }
 }
