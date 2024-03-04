@@ -81,5 +81,11 @@
     <ItemGroup>
         <None Include="App.config"/>
     </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\wpf-panel\wpf-panel.csproj">
+        <Project>{e8c75112-fe7f-4e63-a607-806c132f5ff5}</Project>
+        <Name>wpf-panel</Name>
+      </ProjectReference>
+    </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets"/>
 </Project>

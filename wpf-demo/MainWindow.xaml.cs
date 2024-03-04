@@ -8,6 +8,8 @@
         public MainWindow()
         {
             InitializeComponent();
+            
+            wpf_panel.HelloWorld.Print();
         }
     }
 }
